@@ -1,0 +1,7 @@
+# app/config/routes.yaml
+admin_home:
+    path: /admin
+    controller: App\Controller\HomeController::AdminPage
+    methods: GET
+    # Cette route va rediriger les utilisateurs avec le rôle "ROLE_ADMIN" vers le contrôleur "App\Controller\AdminController::index"
+

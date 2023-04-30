@@ -1,0 +1,8 @@
+# config/console.yaml
+framework:
+    # ...
+    console:
+        commands:
+            app:create-admin: # le nom de la commande définie dans votre classe
+                description: 'Créer un nouvel administrateur'
+                help: 'Cette commande permet de créer un nouvel administrateur.'
